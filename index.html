@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<title>Amanda Gobaud | User Experience &amp; Interaction Designer</title>
+    	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    	<script type="text/javascript" src='js/jquery-1.10.2.min.js'></script>
+    	<script type="text/javascript" src='js/main.js'></script>
+    	<script type="text/javascript">
+    		$(window).scroll(function() {
+		    	var height = $(window).scrollTop();
+
+		    	if($(".title-name").offset().top + $(".title-name").height() - height - 15 <= 0)
+		        	$("#nav-amanda-index").fadeIn('slow');
+
+		        else
+		        	$("#nav-amanda-index").fadeOut('fast');
+			});
+    	</script>
+    </head>
+  	<body>
+  	<div class="header-img-wrap" id="home">
+  				<div class="header-img"><img src="img/headerimage.jpg" /></div>
+  	</div>
+  		<div class="nav">
+  			<div id="nav-amanda-index"><a href="index.html">Amanda Gobaud</a></div>
+  			<div class="nav-bkgd"></div>
+				<ul>
+					<li><a href="index.html">Work</a></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Resume</a></li>
+				</ul>
+		</div>
+
+  		<div class="intro-header">
+	  		<div class="eyebrow">Hi, my name is</div>
+	    	<div class="title-name">Amanda Gobaud</div>
+	    	<div class="intro-text">I was born and raised in sunny Southern California, but decided to go to college in often less-than-sunny Pittsburgh, Pennsylvania where I attended Carnegie Mellon University.</div>
+	    	<div class="intro-text">I currently live in New York City working as a user experience designer and business analyst.</div>
+	    	<div class="outline-button"><a href="#" class="outline-anchor">Resume</a></div>
+	    </div>
+	    <div class="work-container">
+	    	<div class="work-header">Work</div>
+	    	<div class="project-grid">
+	    		<div class="grid-element"><a href="subwaysiesta.html"><img src="img/subwaysiestabubble.png" /></a></div>
+	    		<div class="grid-element"><a href="projectvaus.html"><img src="img/vausbubble.png" /></a></div>
+	    		<div class="grid-element"><a href="smartenergy.html"><img src="img/smartenergybubble.png" /></a></div>
+	    		<div class="grid-element"><a href="clutturecapture.html"><img src="img/cluttercapturebubble.png" /></a></div>
+	    		<div class="grid-element"><a href="mallgo.html"><img src="img/mallgobubble.png" /></a></div>
+	    		<div class="grid-element"><a href="breathe.html"><img src="img/breathebubble.png" /></a></div>
+	    		<div class="grid-element"><a href="#"><img src="img/autobahnbubble.png" /></a></div>
+	    	</div>
+	    </div>
+	    <div class="aboutme-container">
+	    	<div class="aboutme-header">About Me</div>
+	    	<div class="aboutme">
+		    	<div class="aboutme-img"><img src="img/amandahiking.jpg" /></div>
+		    	<div class="aboutme-content">When I first applied to college, I thought I was going to be a programmer and do something cool like build video games. That idea quickly went out the window after I took my first programming class – clearly programming was not for me.</div>
+
+		    	<div class="aboutme-content">Instead, I went on to study human-computer interaction at Carnegie Mellon University and now work as a designer at an investment bank. When I am not beautifying and improving financial software, I work on organizing events with Startup Weekend NYC, run social media and plan events for the NYC Metro Carnegie Mellon Alumni Group, and pretend to be a long distance runner. I love working on things that make people’s lives better either through good design or good logistical planning.</div>
+
+		    	<div class="contact-bubbles-wrapper">
+		    		<div class="contact-images"><a href="https://twitter.com/agobaud"><img src="img/twitter-white.png"></a></div>
+		    		<div class="contact-images"><a href="https://www.facebook.com/amanda.gobaud"><img src="img/facebook-white.png"></a></div>
+		    		<div class="contact-images"><a href="http://www.linkedin.com/pub/amanda-gobaud/24/b64/b7a/"><img src="img/linkedin-white.png"></a></div>
+		    		<div class="contact-images"><a href="http://instagram.com/agobaud"><img src="img/instagram-white.png"></a></div>
+		    		<div class="contact-images"><a href="https://plus.google.com/u/0/+AmandaGobaud/"><img src="img/googleplus-white.png"></a></div>
+		    	</div>
+			</div>
+	    </div>
+  	</body>
+</html>
