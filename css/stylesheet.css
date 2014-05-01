@@ -19,6 +19,9 @@ a{
 	z-index: 0;
 	overflow: hidden;
 }
+.header-img-wrap.project{
+	height:50%;
+}
 
 .header-img{
 	width:120%;
@@ -35,7 +38,14 @@ a{
 .header-img img{
 	width: 100%;
 	margin-top: -80px;
+}
 
+.project-header-img{
+	width:120%;
+	height: 120%;
+	-webkit-filter: blur(5px) contrast(115%) brightness(70%);
+	margin: -20px;
+	
 }
 
 .project-name{
@@ -43,6 +53,22 @@ a{
 	color:#fff;
 	z-index: 1;
 	margin-top: auto;
+}
+
+#subwaysiesta{
+	background: url('../img/subwayheader.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+#projectvaus{
+	background: url('../img/projectvaus.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 }
 
 /* Navigation */
@@ -106,24 +132,24 @@ a{
 
 /* Header intro */
 
-.intro-header{
-	text-align: center;
+.intro-header-wrap{
 	width: 100%;
 	height:100%;
 	color:#fff;
-	float:left;
 	position: absolute;
 	z-index: 100;
 	top:0;
+	display:table;
 }
-
-/*#home{
-	height: 585px;
-}*/
+.intro-header{
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+	
+}
 
 .eyebrow{
 	font-size: 1.3em;
-	padding: 10% 20% 1% 20%;
 }
 
 .title-name{
@@ -137,7 +163,14 @@ a{
 	line-height: 1.5em;
 	font-size: 1.3em;
 	width: 60%;
+	color:rgba(255,255,255,0.7);
 	margin: 2% 20% 2% 20%;
+}
+.intro-text a{
+	color:#fff;
+}
+.intro-text a:hover{
+	text-decoration: underline;
 }
 
 .outline-button{
@@ -149,9 +182,8 @@ a{
 	border: 3px solid #fff;
 	font-size: 1.3em;
 	width: intrinsic;
-	padding: .8em 1.5em .8em 1.5em;
+	padding: .7em 2em .7em 2em;
 	color: #ffffff;
-
 }
 
 a.outline-anchor:hover{
@@ -233,15 +265,14 @@ a.outline-anchor:hover{
 /* Contact Bubbles */
 
 .contact-bubbles-wrapper{
-	margin: 1em auto 1em auto;
-	float:left;
+	margin: 1em auto 5em auto;
 	width: 100%;
 }
 
 .contact-bubbles{
 	float: left;
 	margin: 1em auto;
-
+	width: 25px;
 }
 
 .bubble{
@@ -260,8 +291,11 @@ a.outline-anchor:hover{
 
 /* Contact images */
 .contact-images{
-	float:left;
+	display:inline-block;
 	margin: 0 20px 0 20px;
+}
+.contact-images img{
+	height:30px;
 }
 
 img.contact-images{
@@ -400,7 +434,3 @@ img.contact-images{
 	float:left;
 
 /* Project header images */
-
-#subwayheader{
-	margin-top: -300px;
-}
