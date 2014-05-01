@@ -174,7 +174,8 @@ a{
 }
 
 .outline-button{
-	margin: auto;
+	margin: 4em auto;
+	width: 60%;
 }
 
 .outline-button a{
