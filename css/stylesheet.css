@@ -21,6 +21,7 @@ a{
 }
 .header-img-wrap.project{
 	height:50%;
+	background-color: black;
 }
 
 .header-img{
@@ -48,12 +49,12 @@ a{
 	
 }
 
-.project-name{
+/*.project-name{
 	position: absolute;
 	color:#fff;
 	z-index: 1;
 	margin-top: auto;
-}
+}*/
 
 #subwaysiesta{
 	background: url('../img/subwayheader.jpg') no-repeat center center fixed; 
@@ -334,7 +335,6 @@ img.contact-images{
 
 .project-intro-wrapper{
 	background-color: #33D1CD;
-	float:left;
 	width: 100%;
 	height: 100%;
 }
@@ -343,15 +343,25 @@ img.contact-images{
 	line-height: 1.69em;
 	color: #fff;
 	width: 60%;
-	margin: 3% auto 0 auto;
+	margin: 0 auto;
+	padding:2em;
 }
+
+
 
 .project-name{
 	z-index: 1000;
 	color: #fff;
 	font-size: 2.25em;
-	margin-top: 380px;
+	margin-top: 20%;
 	margin-left: 2%;
+}
+
+.project-name{
+	position: absolute;
+	/*color:#fff;
+	z-index: 1;
+	margin-top: auto;*/
 }
 
 .ornament{
@@ -421,10 +431,15 @@ img.contact-images{
 	text-decoration: underline;
 }
 
-.project-images{
+.project-content img{
 	width: 60%;
 	margin: 3% auto 0 auto;
 	text-align: center;
+	display: inline;
+}
+
+.project-images{
+	width:40%;
 }
 
 /*Other Work*/
