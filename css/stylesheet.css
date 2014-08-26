@@ -88,6 +88,14 @@ a{
 	 background-size: cover;
 }
 
+#corpsquareheader{
+	background: url('../img/plane.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
 
 /* Navigation */
 
@@ -193,7 +201,7 @@ a{
 }
 
 .outline-button{
-	margin: 4em auto;
+	margin: 3em auto;
 	width: 60%;
 }
 
@@ -230,7 +238,7 @@ a.outline-anchor:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	padding-top: 8%;
+	padding-top: 1.5%;
 	position: relative;
 	max-width: 800px;
 }
@@ -344,7 +352,12 @@ img.contact-images{
 	color: #fff;
 	width: 60%;
 	margin: 0 auto;
-	padding:2em;
+	padding:1.5em;
+}
+
+.project-intro-content a{
+	text-decoration: underline;
+	color:#676c6c;
 }
 
 
@@ -353,7 +366,7 @@ img.contact-images{
 	z-index: 1000;
 	color: #fff;
 	font-size: 2.25em;
-	margin-top: 20%;
+	margin-top: 25%;
 	margin-left: 2%;
 }
 
@@ -366,7 +379,7 @@ img.contact-images{
 
 .ornament{
 	width: 60%;
-	margin: 2% auto;
+	margin: 1% auto;
 	text-align: center;
 }
 
@@ -377,13 +390,13 @@ img.contact-images{
 .project-info-wrapper{
 	width: 60%;
 	margin:0 auto;
-	padding-bottom: 8%;
+	padding-bottom: 6%;
 }
 
 .project-info{
 	width: 33%;
 	float: left;
-	line-height: 1.5em;
+	line-height: 1.3em;
 	color:#ffffff;
 }
 
@@ -439,7 +452,14 @@ img.contact-images{
 }
 
 .project-images{
-	width:40%;
+/*	max-width:40%;*/
+	margin: 3% auto 0 auto;
+	text-align: center;
+}
+
+#corpsquaremocks{
+	max-width: 4em;
+	margin: 1em auto;
 }
 
 /*Other Work*/
@@ -459,7 +479,7 @@ img.contact-images{
 
 
 #vaus-images{
-	width: 20%;
+	width: 15%;
 	float: left;
 	margin:10px;
 }
