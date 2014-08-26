@@ -238,7 +238,7 @@ a.outline-anchor:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	padding-top: 1.5%;
+	padding-top: 5.5%;
 	position: relative;
 	max-width: 800px;
 }
@@ -296,6 +296,82 @@ a.outline-anchor:hover{
 
 .aboutme-content a:hover{
 	text-decoration: underline;
+}
+
+.copyright{
+	font-size: .6em;
+	display: table-cell;
+   	vertical-align: bottom;
+}
+
+/*Contact form*/
+.contact-form {
+    float:left;
+    margin:1em auto;
+    width:35%;
+}
+
+.contact-header{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 2%;
+}
+
+form {
+    margin:0 auto;
+    width:100%;
+}
+
+#contact-left {
+	float:left;
+	position: relative;
+	width: 45%;
+}
+
+
+input, textarea {
+    height:27px;
+    background:#efefef;
+    border:1px solid #23918e;
+    padding:10px;
+    margin:3px;
+    font-size:0.9em;
+/*    color:#3a3a3a;*/
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+textarea {
+	height:25%;
+	width: 100%;
+	float:left;
+	position: relative;
+}
+
+#submit {
+    margin: .8em 0 .8em 1.5em;
+    width:127px;
+    height:100%;
+    text-transform: uppercase;
+	border: 3px solid #23918e;
+	font-size: 1.3em;
+	width: intrinsic;
+	padding: .7em 2em .7em 2em;
+	color: #23918e;
+	background: #E8EAEA;
+/*    margin-top:20px;*/
+    cursor:pointer;
+}
+
+#submit:hover {
+color: #000;
+background-color: #23918e;
 }
 
 /* Contact Bubbles */
